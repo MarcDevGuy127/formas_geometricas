@@ -4,7 +4,11 @@ public class Forma {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		calcularArea();
+	}
 
+	public static void calcularArea() {
+		
 	}
 
 }
