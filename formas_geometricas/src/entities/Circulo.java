@@ -3,7 +3,7 @@ package entities;
 import application.Forma;
 
 public class Circulo extends Forma {
-	double raio;
+	double raio = 5;
 	
 	public void calcularCirculo(double raio) {
 		this.raio = raio;
