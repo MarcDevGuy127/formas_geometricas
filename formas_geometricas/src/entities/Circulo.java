@@ -1,5 +1,16 @@
 package entities;
 
-public class Circulo {
+import application.Forma;
 
+public class Circulo extends Forma {
+	double raio;
+	
+	public void calcularCirculo(double raio) {
+		this.raio = raio;
+	}
+	
+	@Override
+	public double calcularArea() {
+		return Math.PI * raio * raio;
+	}
 }
