@@ -3,9 +3,9 @@ package entities;
 import application.Forma;
 
 public class Circulo extends Forma {
-	double raio = 5;
+	double raio;
 	
-	public void calcularCirculo(double raio) {
+	public Circulo(double raio) {
 		this.raio = raio;
 	}
 	
